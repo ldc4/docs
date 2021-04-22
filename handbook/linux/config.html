@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>环境变量 | LDC4</title>
+    <meta name="generator" content="VuePress 1.8.0">
+    <link rel="icon" href="/docs/favicon.ico">
+    <meta name="description" content="weedust's docs">
+    
+    <link rel="preload" href="/docs/assets/css/0.styles.1cb4fce1.css" as="style"><link rel="preload" href="/docs/assets/js/app.387116d3.js" as="script"><link rel="preload" href="/docs/assets/js/2.ea568848.js" as="script"><link rel="preload" href="/docs/assets/js/20.f6f904a5.js" as="script"><link rel="prefetch" href="/docs/assets/js/10.bb16a857.js"><link rel="prefetch" href="/docs/assets/js/11.7695e9a4.js"><link rel="prefetch" href="/docs/assets/js/12.6e3b870d.js"><link rel="prefetch" href="/docs/assets/js/13.623d9fc5.js"><link rel="prefetch" href="/docs/assets/js/14.a136fc2e.js"><link rel="prefetch" href="/docs/assets/js/15.57146bfb.js"><link rel="prefetch" href="/docs/assets/js/16.8266547a.js"><link rel="prefetch" href="/docs/assets/js/17.7518a6ae.js"><link rel="prefetch" href="/docs/assets/js/18.97da3c35.js"><link rel="prefetch" href="/docs/assets/js/19.3fb40177.js"><link rel="prefetch" href="/docs/assets/js/21.ae0a3d29.js"><link rel="prefetch" href="/docs/assets/js/22.7fa304ae.js"><link rel="prefetch" href="/docs/assets/js/23.b200daa3.js"><link rel="prefetch" href="/docs/assets/js/24.c9cfb533.js"><link rel="prefetch" href="/docs/assets/js/25.8768caa5.js"><link rel="prefetch" href="/docs/assets/js/26.e43fd2ef.js"><link rel="prefetch" href="/docs/assets/js/27.206bfa37.js"><link rel="prefetch" href="/docs/assets/js/28.899ef74c.js"><link rel="prefetch" href="/docs/assets/js/29.10a6b6c6.js"><link rel="prefetch" href="/docs/assets/js/3.8fce46eb.js"><link rel="prefetch" href="/docs/assets/js/30.607a6366.js"><link rel="prefetch" href="/docs/assets/js/31.81568980.js"><link rel="prefetch" href="/docs/assets/js/32.18ac7276.js"><link rel="prefetch" href="/docs/assets/js/33.bb110c65.js"><link rel="prefetch" href="/docs/assets/js/34.c91e0f28.js"><link rel="prefetch" href="/docs/assets/js/35.376df90a.js"><link rel="prefetch" href="/docs/assets/js/36.b32893c1.js"><link rel="prefetch" href="/docs/assets/js/37.503919b8.js"><link rel="prefetch" href="/docs/assets/js/38.838a90c3.js"><link rel="prefetch" href="/docs/assets/js/4.abf5150b.js"><link rel="prefetch" href="/docs/assets/js/5.b67d8e86.js"><link rel="prefetch" href="/docs/assets/js/6.c9140c8e.js"><link rel="prefetch" href="/docs/assets/js/7.57eda32d.js"><link rel="prefetch" href="/docs/assets/js/8.0aee57c2.js"><link rel="prefetch" href="/docs/assets/js/9.a8275195.js">
+    <link rel="stylesheet" href="/docs/assets/css/0.styles.1cb4fce1.css">
+  </head>
+  <body>
+    <div id="app" data-server-rendered="true"><div class="theme-container"><header class="navbar"><div class="sidebar-button"><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" role="img" viewBox="0 0 448 512" class="icon"><path fill="currentColor" d="M436 124H12c-6.627 0-12-5.373-12-12V80c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12zm0 160H12c-6.627 0-12-5.373-12-12v-32c0-6.627 5.373-12 12-12h424c6.627 0 12 5.373 12 12v32c0 6.627-5.373 12-12 12z"></path></svg></div> <a href="/docs/" class="home-link router-link-active"><!----> <span class="site-name">LDC4</span></a> <div class="links"><div class="search-box"><input aria-label="Search" autocomplete="off" spellcheck="false" value=""> <!----></div> <nav class="nav-links can-hide"><div class="nav-item"><a href="/docs/" class="nav-link">
+  首页
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="手册" class="dropdown-title"><span class="title">手册</span> <span class="arrow down"></span></button> <button type="button" aria-label="手册" class="mobile-dropdown-title"><span class="title">手册</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><h4>
+          前端基础
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/docs/handbook/javascript/" class="nav-link">
+  Javascript
+</a></li><li class="dropdown-subitem"><a href="/docs/handbook/css/" class="nav-link">
+  CSS
+</a></li><li class="dropdown-subitem"><a href="/docs/handbook/html/" class="nav-link">
+  HTML
+</a></li><li class="dropdown-subitem"><a href="/docs/handbook/vue/" class="nav-link">
+  Vue
+</a></li></ul></li><li class="dropdown-item"><h4>
+          后端基础
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/docs/handbook/nodejs/" class="nav-link">
+  NodeJS
+</a></li><li class="dropdown-subitem"><a href="/docs/handbook/koa/" class="nav-link">
+  Koa
+</a></li><li class="dropdown-subitem"><a href="/docs/handbook/express/" class="nav-link">
+  Express
+</a></li></ul></li><li class="dropdown-item"><h4>
+          数据库
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/docs/handbook/mysql/" class="nav-link">
+  MySQL
+</a></li><li class="dropdown-subitem"><a href="/docs/handbook/mongodb/" class="nav-link">
+  MongoDB
+</a></li></ul></li><li class="dropdown-item"><h4>
+          工具
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/docs/handbook/linux/" class="nav-link router-link-active">
+  Linux
+</a></li><li class="dropdown-subitem"><a href="/docs/handbook/webpack/" class="nav-link">
+  Webpack
+</a></li><li class="dropdown-subitem"><a href="/docs/handbook/vscode/" class="nav-link">
+  VS Code
+</a></li><li class="dropdown-subitem"><a href="/docs/handbook/mac/" class="nav-link">
+  Mac
+</a></li></ul></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="NPM库" class="dropdown-title"><span class="title">NPM库</span> <span class="arrow down"></span></button> <button type="button" aria-label="NPM库" class="mobile-dropdown-title"><span class="title">NPM库</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/docs/npmlib/axios/" class="nav-link">
+  axios
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="更多" class="dropdown-title"><span class="title">更多</span> <span class="arrow down"></span></button> <button type="button" aria-label="更多" class="mobile-dropdown-title"><span class="title">更多</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/docs/plan/" class="nav-link">
+  规划
+</a></li></ul></div></div> <a href="https://github.com/ldc4/MyVuepress" target="_blank" rel="noopener noreferrer" class="repo-link">
+    GitHub
+    <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></nav></div></header> <div class="sidebar-mask"></div> <aside class="sidebar"><nav class="nav-links"><div class="nav-item"><a href="/docs/" class="nav-link">
+  首页
+</a></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="手册" class="dropdown-title"><span class="title">手册</span> <span class="arrow down"></span></button> <button type="button" aria-label="手册" class="mobile-dropdown-title"><span class="title">手册</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><h4>
+          前端基础
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/docs/handbook/javascript/" class="nav-link">
+  Javascript
+</a></li><li class="dropdown-subitem"><a href="/docs/handbook/css/" class="nav-link">
+  CSS
+</a></li><li class="dropdown-subitem"><a href="/docs/handbook/html/" class="nav-link">
+  HTML
+</a></li><li class="dropdown-subitem"><a href="/docs/handbook/vue/" class="nav-link">
+  Vue
+</a></li></ul></li><li class="dropdown-item"><h4>
+          后端基础
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/docs/handbook/nodejs/" class="nav-link">
+  NodeJS
+</a></li><li class="dropdown-subitem"><a href="/docs/handbook/koa/" class="nav-link">
+  Koa
+</a></li><li class="dropdown-subitem"><a href="/docs/handbook/express/" class="nav-link">
+  Express
+</a></li></ul></li><li class="dropdown-item"><h4>
+          数据库
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/docs/handbook/mysql/" class="nav-link">
+  MySQL
+</a></li><li class="dropdown-subitem"><a href="/docs/handbook/mongodb/" class="nav-link">
+  MongoDB
+</a></li></ul></li><li class="dropdown-item"><h4>
+          工具
+        </h4> <ul class="dropdown-subitem-wrapper"><li class="dropdown-subitem"><a href="/docs/handbook/linux/" class="nav-link router-link-active">
+  Linux
+</a></li><li class="dropdown-subitem"><a href="/docs/handbook/webpack/" class="nav-link">
+  Webpack
+</a></li><li class="dropdown-subitem"><a href="/docs/handbook/vscode/" class="nav-link">
+  VS Code
+</a></li><li class="dropdown-subitem"><a href="/docs/handbook/mac/" class="nav-link">
+  Mac
+</a></li></ul></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="NPM库" class="dropdown-title"><span class="title">NPM库</span> <span class="arrow down"></span></button> <button type="button" aria-label="NPM库" class="mobile-dropdown-title"><span class="title">NPM库</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/docs/npmlib/axios/" class="nav-link">
+  axios
+</a></li></ul></div></div><div class="nav-item"><div class="dropdown-wrapper"><button type="button" aria-label="更多" class="dropdown-title"><span class="title">更多</span> <span class="arrow down"></span></button> <button type="button" aria-label="更多" class="mobile-dropdown-title"><span class="title">更多</span> <span class="arrow right"></span></button> <ul class="nav-dropdown" style="display:none;"><li class="dropdown-item"><!----> <a href="/docs/plan/" class="nav-link">
+  规划
+</a></li></ul></div></div> <a href="https://github.com/ldc4/MyVuepress" target="_blank" rel="noopener noreferrer" class="repo-link">
+    GitHub
+    <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></a></nav>  <ul class="sidebar-links"><li><section class="sidebar-group depth-0"><p class="sidebar-heading open"><span>Linux</span> <!----></p> <ul class="sidebar-links sidebar-group-items"><li><a href="/docs/handbook/linux/" aria-current="page" class="sidebar-link">概览</a></li><li><a href="/docs/handbook/linux/basic.html" class="sidebar-link">常用命令行</a></li><li><a href="/docs/handbook/linux/config.html" aria-current="page" class="active sidebar-link">环境变量</a><ul class="sidebar-sub-headers"><li class="sidebar-sub-header"><a href="/docs/handbook/linux/config.html#查看环境变量" class="sidebar-link">查看环境变量</a></li><li class="sidebar-sub-header"><a href="/docs/handbook/linux/config.html#配置环境变量" class="sidebar-link">配置环境变量</a></li><li class="sidebar-sub-header"><a href="/docs/handbook/linux/config.html#bash中的环境变量加载文件" class="sidebar-link">bash中的环境变量加载文件</a></li></ul></li></ul></section></li></ul> </aside> <main class="page"> <div class="theme-default-content content__default"><h1 id="环境变量"><a href="#环境变量" class="header-anchor">#</a> 环境变量</h1> <h2 id="查看环境变量"><a href="#查看环境变量" class="header-anchor">#</a> 查看环境变量</h2> <p><code>export</code> 命令显示当前系统定义的所有环境变量</p> <p><code>echo $PATH</code> 命令输出当前的PATH环境变量的值</p> <h2 id="配置环境变量"><a href="#配置环境变量" class="header-anchor">#</a> 配置环境变量</h2> <p><code>export PATH=$PATH:/home/test</code></p> <blockquote><p>生效时间：立即生效<br>
+生效期限：当前终端有效，窗口关闭后无效<br>
+生效范围：仅对当前用户有效</p></blockquote> <p><code>vim ~/.bashrc</code></p> <blockquote><p>生效时间：使用相同的用户打开新的终端时生效，或者手动source ~/.bashrc生效<br>
+生效期限：永久有效<br>
+生效范围：仅对当前用户有效</p></blockquote> <p><code>vim ~/.bash_profile</code></p> <blockquote><p>生效时间：使用相同的用户打开新的终端时生效，或者手动source ~/.bash_profile生效<br>
+生效期限：永久有效<br>
+生效范围：仅对当前用户有效</p></blockquote> <p><code>vim /etc/bashrc</code></p> <blockquote><p>生效时间：新开终端生效，或者手动source /etc/bashrc生效<br>
+生效期限：永久有效<br>
+生效范围：对所有用户有效</p></blockquote> <p><code>vim /etc/profile</code></p> <blockquote><p>生效时间：新开终端生效，或者手动source /etc/profile生效<br>
+生效期限：永久有效<br>
+生效范围：对所有用户有效</p></blockquote> <p><code>vim /etc/environment</code></p> <blockquote><p>生效时间：新开终端生效，或者手动source /etc/environment生效<br>
+生效期限：永久有效<br>
+生效范围：对所有用户有效</p></blockquote> <h2 id="bash中的环境变量加载文件"><a href="#bash中的环境变量加载文件" class="header-anchor">#</a> bash中的环境变量加载文件</h2> <p>用户级别环境变量定义文件：</p> <p><code>~/.bashrc</code></p> <p><code>~/.profile</code>（部分系统为：<code>~/.bash_profile</code>）</p> <p>系统级别环境变量定义文件：</p> <p><code>/etc/bashrc</code></p> <p><code>/etc/profile</code>（部分系统为：<code>/etc/bash_profile</code>）</p> <p>我的云服务器，读取顺序：</p> <div class="language- line-numbers-mode"><pre class="language-text"><code>/etc/profile  
+/etc/bashrc  
+~/.bash_profile (主动加载了~/.bashrc)  
+~/.bashrc  
+</code></pre> <div class="line-numbers-wrapper"><span class="line-number">1</span><br><span class="line-number">2</span><br><span class="line-number">3</span><br><span class="line-number">4</span><br></div></div><p>鸟哥书上讲：<br>
+no-login shell才会加载：<code>~/.bashrc</code><br>
+所以在<code>~/.bash_profile</code>加载<code>~/.bashrc</code>，然后添加环境变量，可以直接添加在<code>~/.bashrc</code>中</p></div> <footer class="page-edit"><div class="edit-link"><a href="https://github.com/ldc4/MyVuepress/edit/master/docs/handbook/linux/config.md" target="_blank" rel="noopener noreferrer">帮助Weedust改善此页面！</a> <span><svg xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" x="0px" y="0px" viewBox="0 0 100 100" width="15" height="15" class="icon outbound"><path fill="currentColor" d="M18.8,85.1h56l0,0c2.2,0,4-1.8,4-4v-32h-8v28h-48v-48h28v-8h-32l0,0c-2.2,0-4,1.8-4,4v56C14.8,83.3,16.6,85.1,18.8,85.1z"></path> <polygon fill="currentColor" points="45.7,48.7 51.3,54.3 77.2,28.5 77.2,37.2 85.2,37.2 85.2,14.9 62.8,14.9 62.8,22.9 71.5,22.9"></polygon></svg> <span class="sr-only">(opens new window)</span></span></div> <div class="last-updated"><span class="prefix">最后更新时间:</span> <span class="time">4/22/2021, 12:27:00 PM</span></div></footer> <div class="page-nav"><p class="inner"><span class="prev">
+      ←
+      <a href="/docs/handbook/linux/basic.html" class="prev">
+        常用命令行
+      </a></span> <!----></p></div> </main></div><div class="global-ui"><!----></div></div>
+    <script src="/docs/assets/js/app.387116d3.js" defer></script><script src="/docs/assets/js/2.ea568848.js" defer></script><script src="/docs/assets/js/20.f6f904a5.js" defer></script>
+  </body>
+</html>
